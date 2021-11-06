@@ -1,0 +1,61 @@
+.dark-mode .header-top{
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+.dark-mode .header-links{
+    color: black;
+    transition: 0.5s ease;
+}
+.dark-mode .footer-logo{
+    background-color: #66FF46;
+    transition: 0.5s ease;
+}
+.dark-mode .header-bottom{
+    background-color: #A61724;
+    transition: 0.5s ease;
+}
+.dark-mode .main-page{
+    background-color: white;
+    transition: 0.5s ease;
+}
+.dark-mode .logo-image{
+    background: url(../img/Инфобезопасность.gif);
+    transition: 0.5s ease;
+}
+.dark-mode .circle_4{
+    background-color: #66FF46;
+    transition: 0.5s ease;
+}
+.dark-mode .circle_6{
+    background-color: #66FF46;
+    transition: 0.5s ease;
+}
+.dark-mode .block-center{
+    background-color: #F8F8F8;
+    transition: 0.5s ease;
+}
+.dark-mode .expand1::after{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transition: 0.5s ease;
+}
+.dark-mode .circle_2{
+    background-color: #FF4656;
+    transition: 0.5s ease;
+}
+.dark-mode .circle_3{
+    background-color: #37a5ff;
+    transition: 0.5s ease;
+}
+.dark-mode .circle_5{
+    background-color: #37a5ff;
+    transition: 0.5s ease;
+}
+.dark-mode .main-blocks__child{
+    background-color: #F8F8F8;
+    transition: 0.5s ease;
+}
+.dark-mode .par1{
+    color: black;
+    transition: 0.5s ease;
+}

@@ -1,0 +1,86 @@
+.container1{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 100px 10px;
+    position: relative; /* относительное позиционировкание, все абсолютные контейнеры будут ровняться по этому контейнеру, а не по экрану */
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s ease;
+    z-index: 126456174322352562;
+    top: 720px;
+}
+.cross-container{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.cross-one{
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+.cross-two{
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+
+.popup-transform{
+    transform: translateY(-100vh);
+    transition: transform 0.5s ease;
+}
+.layer{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(117, 190, 218, 0);
+    z-index: 26154215487253769249;
+    top: 0;
+    left: 0;
+
+    transition: opacity 0.5s ease; 
+}
+.text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+    background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+    background-size: 3200px 200px;
+    margin-top: 20vh;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: animate-logo;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    transition: font-size 500ms ease-in-out;
+}
+.container-main-text{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+@-webkit-keyframes animate-logo {
+    0% {
+    background-position: 0 3200px;
+    }
+    100% {
+    background-position: 3200px 0;
+    }
+}
